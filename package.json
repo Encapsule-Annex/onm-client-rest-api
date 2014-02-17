@@ -1,5 +1,5 @@
 {
-  "name": "onm-server-client-rest-api",
+  "name": "onm-client-rest-api",
   "version": "0.0.1",
   "description": "Client-side API for accessing remote Object Namespace Manager (onm) data store instances.",
   "main": "library.js",
