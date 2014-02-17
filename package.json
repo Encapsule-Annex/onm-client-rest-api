@@ -1,0 +1,28 @@
+{
+  "name": "onm-server-client-rest-api",
+  "version": "0.0.1",
+  "description": "Client-side API for accessing remote Object Namespace Manager (onm) data store instances.",
+  "main": "library.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Encapsule/onm-server-client-rest-api.git"
+  },
+  "keywords": [
+    "onm",
+    "client",
+    "api"
+  ],
+  "author": "ChrisRus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Encapsule/onm-server-client-rest-api/issues"
+  },
+  "homepage": "https://github.com/Encapsule/onm-server-client-rest-api",
+  "dependencies": {
+    "es6-promise": "~0.1.1",
+    "jquery": "~2.1.0"
+  }
+}
