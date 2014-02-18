@@ -8,7 +8,9 @@ var errorMessageFromjqXHR = function(jqXHR_, textStatus_, errorThrown_) {
 
 var requestUrl = function (baseUrl_, routeSuffix_) {
     var baseUrl = (baseUrl_ != null) && baseUrl_ || ".";
-    return baseUrl + "/" + routeSuffix_;
+    var slashTerminated = baseUrl_.indexOf('/', baseUrl_.length - 1) !== -1;
+
+    return baseUrl + (!slashTerminated && "/" || "") + routeSuffix_;
 }
 
 var createAjaxRequestPromise = function(httpMethod_, relativeUrl_, dataObject_) {
