@@ -1,6 +1,6 @@
 {
   "name": "onm-client-rest-api",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Client-side API for accessing remote Object Namespace Manager (onm) data store instances.",
   "main": "library.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/Encapsule/onm-client-rest-api",
   "dependencies": {
-    "es6-promise": "~0.1.1",
-    "jquery": "~2.1.0"
+    "es6-promise": "^0.1.2",
+    "jquery": "^2.1.1"
   }
 }
